@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="assets/main.css">
+  <title>Machine Art Exhibition</title>
+   <link rel="icon" href="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/1.png" type="image/x-icon" />
+ </head> 
+ </head>
+
+ <body>
+ <h1>Machine Art Exhibition</h1>
+
+<a href="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/about/index.html" title="Find out about the Machine Art Exhibition">About</a>
+<br>
+<a href="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/artists/index.html" title="Check out images of the Machine Art Exhibition">Artists</a>
+<br>
+<a href="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/images/index.html">Images</a>
+<br>
+<a href="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/publications/index.html" title="Check out images of the Machine Art Exhibition">Publications</a>
+<br>
+<a href="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/visit%20/index.html" title="Check out images of the Machine Art Exhibition">Visit</a>
+
+<div style="max-width:500px">
+  <img class="mySlides" src="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/Screenshot%201942-09-24%20at%205.10.15%20PM.png" style="width:50%">
+
+  <img class="mySlides" src="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/Screenshot%201942-09-24%20at%205.10.27%20PM.png" style="width:50%">
+
+
+  <img class="mySlides" src="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/Screenshot%201942-09-24%20at%205.10.42%20PM.png" style="width:50%">
+
+  <img class="mySlides" src="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/Screenshot%201942-09-24%20at%205.10.55%20PM.png" style="width:50%">
+
+  <img class="mySlides" src="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/Screenshot%201942-09-24%20at%205.11.06%20PM.png" style="width:50%">
+
+  <img class="mySlides" src="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/Screenshot%201942-09-24%20at%205.11.19%20PM.png" style="width:50%">
+
+ <img class="mySlides" src="file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/Screenshot%201942-09-24%20at%205.10.06%20PM.png" style="width:50%">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+</body>
+</html>

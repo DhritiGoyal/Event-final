@@ -1,0 +1,37 @@
+body {
+  background-image: url('file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/1F.jpg'), url('file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/3F.jpg');
+  background-size: 100%, 170%;
+   background-position: left top, left bottom;
+   background-repeat:no-repeat, repeat;
+}
+
+h1{
+	font-family:helvetica;
+	color:white;
+	font-size:550%;
+	text-align: center;
+}
+
+
+h1:hover{
+	  text-shadow: 7px 7px 17px black;
+}
+
+a{
+	font-family:helvetica;
+	color:white;
+	font-size:280%;
+	text-align: right;
+	margin-left: 50%;
+}
+
+a:hover{
+	background-color: black;
+	color:white;
+}
+
+.mySlides {
+	display:none;
+	position:absolute;
+   margin-top:-8px;
+}
