@@ -1,0 +1,29 @@
+body {
+  background-image: url('file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/2F.jpg');
+  background-size: 100%;
+  background-repeat:repeat;
+}
+
+
+h2{
+	font-family:helvetica;
+	color:white;
+	font-size:550%;
+	text-align: center;
+}
+h2:hover {
+  background-color:gainsboro;
+  color:white;
+  text-shadow: 5px 5px 13px black;
+}
+
+h3{
+	font-family:helvetica;
+	color:white;
+	font-size:120%;
+	text-align: center;
+	transform: skew( -15deg);
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: left;
+}

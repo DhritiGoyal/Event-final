@@ -1,0 +1,35 @@
+body {
+  background-image: url('file:///Users/dhritigoyal/Desktop/interaction%20/DhritiGoyal_cif20/projects%20/Final/pix/circular-837510_1920.jpg');
+  background-size: 100%, 150%;
+   background-position: left top, left bottom;
+   background-repeat:repeat;
+}
+
+h2{font-family:helvetica;
+	color:black;
+	font-size:400%;
+	text-align: center;}
+
+h2:hover {
+  background-color:dimgray;
+  color:white;
+  text-shadow: 5px 5px 13px black;
+}
+
+h4{
+	font-family:helvetica;
+	color:black;
+	font-size:550%;
+	text-align: center;
+}
+
+h4{
+	font-family:helvetica;
+	color:black;
+	font-size:150%;
+	text-align: center;
+}
+h4:hover {
+  background-color: black;
+  color:white;
+}
